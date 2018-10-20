@@ -1,8 +1,10 @@
+echo 'source activate fastai' >> ~/.bashrc
+source activate fastai
+
 git clone https://github.com/fastai/fastai.git
 cd fastai/
 
-echo 'source activate fastai' >> ~/.bashrc
-source activate fastai
+
 
 conda install -c pytorch pytorch-nightly cuda92
 conda install -c fastai torchvision-nightly
