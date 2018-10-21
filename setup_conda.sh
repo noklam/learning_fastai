@@ -5,7 +5,4 @@ sudo apt-get update
 sleep 5
 echo 'export PATH=~/anaconda3/bin:$PATH' >> ~/.bashrc
 export PATH=~/anaconda3/bin:$PATH
-sleep 5
-conda create -n "fastai"
-sleep 5
 source ~/.bashrc
