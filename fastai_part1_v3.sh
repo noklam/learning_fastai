@@ -1,5 +1,7 @@
 echo 'source activate fastai' >> ~/.bashrc
 source ~/.bashrc
+sudo apt-get install gcc
+sudo apt-get update
 git clone https://github.com/fastai/fastai.git
 cd fastai/
 conda install -c pytorch pytorch-nightly cuda92
