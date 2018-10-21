@@ -1,5 +1,5 @@
 echo 'source activate fastai' >> ~/.bashrc
-source activate fastai
+echo 'source activate fastai'
 
 git clone https://github.com/fastai/fastai.git
 cd fastai/
