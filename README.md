@@ -3,6 +3,7 @@ A change of the original script provided by fast.ai in order to set up GCP VM in
 
 # For Part1 V3
 ```
+git clone https://github.com/noklam/learning_fastai.git
 yes "yes" | bash learning_fastai/setup_conda.sh
 source activate fastai
 yes "yes" | bash learning_fastai/fastai_part1_v3.sh
